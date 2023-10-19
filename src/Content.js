@@ -59,16 +59,14 @@ function Content() {
             <img width="48" height="48" style={{width:'50px'}} class="btn mt-4 btn-outline-white rounded-circle border" src="https://img.icons8.com/fluency/48/000000/sort-down.png" alt="sort-down"/>
             </a>
         </div>
-    <div id='next' class="container my-5" >
-        <div style={{margin:'3rem 0.5rem'}} class="p-3 rounded-4 shadow-lg col-lg-12 text-center">
+    <div id='next' class="container-fluid-md my-5 mx-auto" >
+        <div style={{margin:'3rem 0rem'}} class="p-3 rounded-4 shadow-lg col-lg-12 text-center">
         <p id='primary' class="lead fs-5 my-4">With years of experience helping several companies triple their revenue in record time.</p>
-        </div>
-
-    <div className="container d-flex justify-content-evenly align-items-center col-12 mx-auto mt-2">
+        <div className="container d-flex justify-content-evenly align-items-center col-12 mx-auto mt-2">
         <div>
 
-            <button className="btn rounded-circle border btn-outline-secondary p-1" onClick={() => scrollImages('left')}>
-                <img scr={leftArrow} alt='left'/>
+            <button className="btn rounded-circle border btn-outline-secondary me-2 p-1" onClick={() => scrollImages('left')}>
+                <img src={leftArrow} alt='left'/>
             </button>
         </div>
             <div
@@ -101,11 +99,14 @@ function Content() {
         <img src={hezmag} alt="3" />
         </div>
         <div>
-            <button className="btn ml-3 rounded-circle border btn-outline-secondary p-1" onClick={() => scrollImages('right')}>
-            <img scr={rightArrow} alt='right'/>
+            <button className="btn ml-3 rounded-circle border btn-outline-secondary ml-4 p-1" onClick={() => scrollImages('right')}>
+            <img src={rightArrow} alt='right'/>
             </button>
         </div>
     </div>
+        </div>
+
+   
 
 
 
@@ -176,7 +177,7 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
-                    <p class="mt-3 text-black">“We had tried almost every Digital Marketer on the internet and still didn’t get the growth we wanted until we worked with these guys.”</p>
+                    <p class="mt-3 text-black">"JL Media transformed our processes, boosting productivity and saving costs. Their tailored approach was a game-changer for our growth."</p>
                 </div>
                 <div id='review' class="col-lg-3 rounded shadow m-3 p-4">
                     <img class="img-fluid rounded-circle mb-3" src={bill} alt="Client 1"/>
@@ -186,7 +187,7 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
-                    <p class="mt-3 text-black">“We had tried almost every Digital Marketer on the internet and still didn’t get the growth we wanted until we worked with these guys.”</p>
+                    <p class="mt-3 text-black">"Our digital presence soared with this tech company's cutting-edge solutions. Increased engagement led to higher revenue and market share. A decision we celebrate."</p>
                 </div>
                 <div id='review' class="col-lg-3 rounded shadow m-3 p-4">
                     <img class="img-fluid rounded-circle mb-3" src={bill} alt="Client 1"/>
@@ -197,7 +198,7 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
-                    <p class="mt-3 text-black">“We had tried almost every Digital Marketer on the internet and still didn’t get the growth we wanted until we worked with these guys.”</p>
+                    <p class="mt-3 text-black">"Impressed by this tech company's seamless solutions. They made us agile, enhancing collaboration and scalability. Highly recommend for any business aiming to thrive."</p>
                 </div>
             </div>
         </div>
