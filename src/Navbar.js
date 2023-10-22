@@ -68,7 +68,7 @@ function Navbar() {
                 <li class="nav-item m-3">
                   <Link
                     type="button"
-                    class="nav-link btn btn-outline-success text-white"
+                    class="nav-link btn btn-outline-success text-success"
                     aria-current="page"
                     to="/growthform"
                   >
