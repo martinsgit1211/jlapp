@@ -30,7 +30,7 @@ function Navbar() {
   
   return (
     <>
-      <nav class="navbar navbar-expand-lg mb-5 fixed-top">
+      <nav class="navbar navbar-expand-lg p-0 mb-5 fixed-top">
         <div class="container mx-auto">
           {/* <img src={} alt=""/> */}
           <Link class="navbar-brand" to="/">
@@ -55,7 +55,9 @@ function Navbar() {
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
             <div class="offcanvas-header">
-            <img style={{width: '192px', height: '47px'}} src={logo} alt='logo' />
+            <Link class="navbar-brand" to="/">
+          <img id="logo" style={{width: '170px', height: '40px'}} src={logo} alt='logo' />
+          </Link>
               <button
                 type="button"
                 class="btn-close btn-close-white"
@@ -68,7 +70,8 @@ function Navbar() {
                 <li class="nav-item m-3">
                   <Link
                     type="button"
-                    class="nav-link btn btn-outline-success text-success"
+                    id="bttt"
+                    class="nav-link btn rounded-1"
                     aria-current="page"
                     to="/growthform"
                   >

@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
    
-   <div id='bottom' style={{maxHeight:'150vh',padding: '40vh 0 0', position: 'relative' }} className="container-fluid bg-black text-white mx-auto">
+   <div id='bottom' style={{maxHeight:'250vh',padding: '40vh 0 0', position: 'relative' }} className="container-fluid bg-black text-white mx-auto">
   <div id='top' style={{
     position: 'absolute',
     top: '-10%',
@@ -15,13 +15,13 @@ function Footer() {
     maxWidth: '80%', // Set a maximum width to maintain readability
     margin: '1.5rem auto',
     padding: '2rem',
-    backgroundColor: '#333',
+    backgroundColor: 'rgba(3, 3, 20)',
     borderRadius: '10px'
   }} className="text-white py-4">
     <div className="row justify-content-center">
       <div className="col-md-12 text-center">
-        <h2 className="display-7 mb-4">Get to Learn how popular companies grew from startups to unicorns.</h2>
-        <p className="lead fs-6 mb-4">Access the Growth-secrets the leading 4% of companies run, but won't share on the media.</p>
+        <h2 style={{fontFamily:'800'}} className="display-7 mb-4">Get to Learn how popular companies grew from startups to unicorns.</h2>
+        <p className="lead fs-6 mb-4">Access the Growth-secrets the leading 4% of companies run with, but won't share on the media.</p>
         <button className="btn btn-lg col-md-6 btn-success">Learn Now</button>
       </div>
     </div>
@@ -29,12 +29,12 @@ function Footer() {
   <div className="container">
     <div className="row">
     <div className="col-md-3">
-            <h3 style={{color:'#009900'}}>JL Media HQ</h3>
+            <h3 style={{color:'#ffff', fontWeight:'700'}}>JL Media HQ</h3>
             <p>JL Media is a fast rising digital marketing agency with the aim to help business and brand grow fast and grow global.</p>
           </div>
        
           <div className="col-md-3">
-          <h3 style={{color:'#009900'}}>Services</h3>
+          <h3 style={{color:'#ffff', fontWeight:'700'}}>Services</h3>
             <ul className="list-unstyled">
               <li>SEO</li>
               <li>Web Design</li>
@@ -45,7 +45,7 @@ function Footer() {
             </ul>
           </div>
           <div className="col-md-3">
-          <h3 style={{color:'#009900'}}>Connect with Us</h3>
+          <h3 style={{color:'#ffff', fontWeight:'700'}}>Connect with Us</h3>
             <ul className="list-unstyled">
               <li>Facebook</li>
               <li>Instagram</li>
@@ -54,7 +54,7 @@ function Footer() {
             </ul>
           </div>
           <div className='col-md-3 mb-4'>
-          <h3 style={{color:'#009900'}}>Socials</h3>
+          <h3 style={{color:'#ffff'}}>Socials</h3>
           <Link
                             href="https://x.com/jlmediaglobal?t=AnTim-6NKXDCSKqb5pZbXg&s=09"
                             target="_blank"

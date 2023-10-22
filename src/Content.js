@@ -43,7 +43,7 @@ function Content() {
                 <h1 id="title" class="display-3">We help Businesses grow <span id="text-success">fast</span> and Brands
                     grow <span id="text-success">global</span>.</h1>
                
-                <Link to="/growthform" id='btt' class="btn col-md-4 my-4 btn-lg">Grow my brand</Link>
+                <Link to="/growthform" id='btt' class="btn rounded-1 p-3 col-md-4 my-4 btn-lg">Grow my brand</Link>
                 <div id="scroll" class="col-lg-6">
                 <img src={mouse} class="img-fluid" alt="Placeholder"/>
                 <span class="text-white">Scroll to see more section</span>
@@ -71,7 +71,7 @@ function Content() {
         </div>
             <div
         ref={containerRef}
-        className="image-container col-sm-10 rounded-2 shadow-lg text-center"
+        className="image-container col-sm-10 rounded-2 text-center"
         style={{
           display: 'flex',
           overflowX: 'auto',
@@ -111,12 +111,12 @@ function Content() {
 
 
 
-        <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow-lg row text-center align-items-center">
+        <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow row text-center align-items-center">
             <div class="col-lg-6">
-                <h1 id='primary' class="fs-3 my-4">WE POSITION...</h1>
+                <h1 id='primary' class="fs-3 my-4">WE POSITION</h1>
                <p id='parag' class="fs-5">People need what you're offering, but don't know why they should choose you over your competitors. With our branding and design services, we dress up your company  and ensure your customers can’t say NO to your offers.
                </p>
-                <Link to="/brandingform" id='btt' class="btn my-4 col-md-6 btn-md">Get a Free Brand Audit</Link>
+                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 my-4 col-md-6 btn-md">Get a Free Brand Audit</Link>
         
             </div>
             <div class="col-lg-6">
@@ -124,25 +124,25 @@ function Content() {
             </div>
            
         </div>
-        <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow-lg row text-center align-items-center">
+        <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow row text-center align-items-center">
             <div class="col-lg-6">
                 <img src={advertiser} class="img-fluid"  alt="woman" />
             </div>
             <div class="col-lg-6">
-                <h1  id='primary' class="fs-3 my-4">WE PROMOTE...</h1>
+                <h1  id='primary' class="fs-3 my-4">WE PROMOTE</h1>
                <p id='parag' class="fs-5">Tons of prospects are looking for the solutions you offer, but you're not where they are. With our Digital Marketing Tools, we help ensure you get noticed, convert more customers, and close more sales.
                </p>
-                <Link to="/brandingform" class="btn btn-success my-4 col-md-4 btn-md">Get Notified</Link>
+                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 my-4 col-md-4 btn-md">Get Notified</Link>
         
             </div>
            
         </div>
-        <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow-lg row text-center align-items-center">
+        <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow row text-center align-items-center">
             <div class="col-lg-6">
-                <h1 class="fs-3 my-4" id='primary'>WE AUTOMATE...</h1>
+                <h1 class="fs-3 my-4" id='primary'>WE AUTOMATE</h1>
                <p id='parag' class="fs-5">Imagine being able to focus on the 4% percent of your business that actually generates income, and leave the rest to our Automated systems to work for you, that's what the apps, websites and landing pages we can create for you would help you do.
                </p>
-                <Link to="/brandingform" class="btn btn-success col-md-4 my-4 btn-md">Automate Now</Link>
+                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 col-md-4 my-4 btn-md">Automate Now</Link>
         
             </div>
             <div class="col-lg-6">
@@ -150,15 +150,15 @@ function Content() {
             </div>
            
         </div>
-        <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow-lg row text-center align-items-center">
+        <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow row text-center align-items-center">
             <div class="mx-auto col-lg-6">
                 <img src={discuss} class="img-fluid"  alt="woman" />
             </div>
             <div class="mx-auto col-lg-6">
-                <h1 class="fs-3 my-4" id='primary'>WE AUTOMATE...</h1>
+                <h1 class="fs-3 my-4" id='primary'>WE AUTOMATE</h1>
                <p id='parag' class="fs-5">Perhaps you already have all these up and running but still aren't getting the results you desire. We can help you Re-Brand, Re-strategize, and Re-position for Peak Performance and Guaranteed results.
                </p>
-                <Link to="/websiteform" class="btn btn-success col-md-6 my-4 btn-md">Get a Free Optimization Audit</Link>
+                <Link to="/websiteform" id='btt' class="btn rounded-1 p-3 col-md-6 my-4 btn-md">Get a Free Optimization Audit</Link>
         
             </div>
            
