@@ -39,7 +39,7 @@ function Content() {
   return (
     <>
         <div id="banner" class="row container-fluid mx-auto align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-5">
                 <h1 id="title" class="display-3">We help Businesses grow <span id="text-success">fast</span> and Brands
                     grow <span id="text-success">global</span>.</h1>
                
