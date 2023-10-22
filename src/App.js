@@ -7,6 +7,7 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Content from './Content.js'
+import Learnmore from "./Learnmore";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/footer" element={<Footer />}></Route>
         <Route path="/navbar" element={<Navbar />}></Route>
         <Route path="/content" element={<Content />}></Route>
+        <Route path="/learnmore" element={<Learnmore/>}></Route>
       </Routes>
     </Router>
   );

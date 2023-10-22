@@ -22,7 +22,7 @@ function Footer() {
       <div className="col-md-12 text-center">
         <h2 style={{fontFamily:'800'}} className="display-7 mb-4">Get to Learn how popular companies grew from startups to unicorns.</h2>
         <p className="lead fs-6 mb-4">Access the Growth-secrets the leading 4% of companies run with, but won't share on the media.</p>
-        <button className="btn btn-lg col-md-6 btn-success">Learn Now</button>
+        <Link to="/learnmore" className="btn btn-lg col-md-6 btn-success">Learn Now</Link>
       </div>
     </div>
   </div>
@@ -56,7 +56,7 @@ function Footer() {
           <div className='col-md-3 mb-4'>
           <h3 style={{color:'#ffff'}}>Socials</h3>
           <Link
-                            href="https://x.com/jlmediaglobal?t=AnTim-6NKXDCSKqb5pZbXg&s=09"
+                            to="https://x.com/jlmediaglobal?t=7HIINaS9dElyGvoYZU9LLQ&s=09"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -67,7 +67,7 @@ function Footer() {
                               alt="twitter--v1"
                             />
                           </Link>
-                          <Link href="" target="_blank" rel="noopener noreferrer">
+                          <Link to="tiktok.com/@jlmediaglobal" target="_blank" rel="noopener noreferrer">
                             <img
                               width="48"
                               height="48"

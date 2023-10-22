@@ -32,7 +32,6 @@ function Navbar() {
     <>
       <nav class="navbar navbar-expand-lg p-0 mb-5 fixed-top">
         <div class="container mx-auto">
-          {/* <img src={} alt=""/> */}
           <Link class="navbar-brand" to="/">
           <img id="logo" style={{width: '170px', height: '40px'}} src={logo} alt='logo' />
           </Link>
