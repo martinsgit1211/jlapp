@@ -13,6 +13,9 @@
     background: #dbdbdb69;
   }
   #btt{
+    border: 1px rgba(28, 28, 119, 0.89) solid;
+  }
+  #btt:hover{
     background: linear-gradient(to top, #009900, rgba(28, 28, 119, 0.89));
     color: #ffffff;
   }
