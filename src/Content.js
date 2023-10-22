@@ -44,7 +44,7 @@ function Content() {
                     grow <span id="text-success">global</span>.</h1>
                
                 <Link to="/growthform" id='btt' class="btn col-md-4 my-4 btn-lg">Grow my brand</Link>
-                <div class="col-lg-6">
+                <div id="scroll" class="col-lg-6">
                 <img src={mouse} class="img-fluid" alt="Placeholder"/>
                 <span class="text-white">Scroll to see more section</span>
                 </div>
