@@ -46,7 +46,7 @@ function Content() {
                 <Link to="/growthform" id='btt' class="btn rounded-1 p-3 col-md-4 my-4 btn-lg">Grow my brand</Link>
                 <div id="scroll" class="col-lg-6">
                 <img src={mouse} class="img-fluid" alt="Placeholder"/>
-                <span class="text-white">Scroll to see more section</span>
+                <span class="text-dark">Scroll to see more section</span>
                 </div>
             </div>
             <div class="col-md-6 mt-5 d-flex justify-content-start align-items-center">
