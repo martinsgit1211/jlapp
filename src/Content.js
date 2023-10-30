@@ -129,24 +129,23 @@ function Content() {
            
         </div>
         <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow row text-center align-items-center">
-            <div class="col-lg-6">
-                <img src={advertiser} class="img-fluid"  alt="woman" />
-            </div>
-            <div class="col-lg-6">
-                <h1  id='primary' class="fs-3 my-4">WE PROMOTE</h1>
-               <p id='parag' class="fs-5">Tons of prospects are looking for the solutions you offer, but you're not where they are. With our Digital Marketing Tools, we help ensure you get noticed, convert more customers, and close more sales.
-               </p>
-                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 my-4 col-md-4 btn-md">Get Notified  <img width='15' src={rightArrow} alt='right'/></Link>
-        
-            </div>
-           
-        </div>
+    <div class="col-lg-6 order-lg-2 order-1">
+        <h1 id='primary' class="fs-3 my-4">WE PROMOTE</h1>
+        <p id='parag' class="fs-5">Tons of prospects are looking for the solutions you offer, but you're not where they are. With our Digital Marketing Tools, we help ensure you get noticed, convert more customers, and close more sales.
+        </p>
+        <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 my-4 col-md-4 btn-md">Get Notified  <img width='15' src={rightArrow} alt='right'/></Link>
+    </div>
+    <div class="col-lg-6 order-lg-1 order-2">
+        <img src={advertiser} class="img-fluid" alt="woman" />
+    </div>
+</div>
+
         <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow row text-center align-items-center">
             <div class="col-lg-6">
                 <h1 class="fs-3 my-4" id='primary'>WE AUTOMATE</h1>
                <p id='parag' class="fs-5">Imagine being able to focus on the 4% percent of your business that actually generates income, and leave the rest to our Automated systems to work for you, that's what the apps, websites and landing pages we can create for you would help you do.
                </p>
-                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 col-md-4 my-4 btn-md">Automate Now  <img width='15' src={rightArrow} alt='right'/></Link>
+                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 col-md-4 my-4 btn-md">Automate Now <img width='15' src={rightArrow} alt='right'/></Link>
         
             </div>
             <div class="col-lg-6">
@@ -155,10 +154,10 @@ function Content() {
            
         </div>
         <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow row text-center align-items-center">
-            <div class="mx-auto col-lg-6">
+            <div class="mx-auto col-lg-6 order-lg-1 order-2">
                 <img src={discuss} class="img-fluid"  alt="woman" />
             </div>
-            <div class="mx-auto col-lg-6">
+            <div class="mx-auto col-lg-6 order-lg-2 order-1">
                 <h1 class="fs-3 my-4" id='primary'>WE OPTIMIZE</h1>
                <p id='parag' class="fs-5">Perhaps you already have all these up and running but still aren't getting the results you desire. We can help you Re-Brand, Re-strategize, and Re-position for Peak Performance and Guaranteed results.
                </p>
@@ -167,9 +166,9 @@ function Content() {
         </div>
 
         <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 row justify-content-center text-center py-5 text-white">
-        <div class="col-md-12">
+        <div class="col-md-12" style={{minWidth:'100%'}}>
             <h2 id='primary' class="mb-4 mx-auto shadow-sm col-md-6 pb-2" style={{borderBottom: '1px blue solid'}}>What our Clients are saying</h2>
-            <div class="row justify-content-center reviews-container d-flex flex-nowrap overflow-auto" style={{minWidth:'100%'}}>
+            <div class="row justify-content-center reviews-container d-flex flex-nowrap overflow-auto" >
                 <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
                     <img class="img-fluid rounded-circle mb-3 col-4" src={zhiri} alt="Client 1"/>
                     <div class="h4 text-black">Zhiri Obadiah Adams</div>
@@ -182,16 +181,6 @@ function Content() {
                     <p class="mt-3 text-black">"JL Media transformed our processes, boosting productivity and saving costs. Their tailored approach was a game-changer for our growth."</p>
                 </div>
                 <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
-                    <img class="img-fluid rounded-circle mb-3 col-4" src={ayo} alt="Client 1"/>
-                    <div class="h4 text-black">Ilesanmi Ayomide (YINJU)</div>
-                    <div class="text-muted mb-3">Creative Director, Pisteuo Clothings </div>
-                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
-                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
-                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
-                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
-                    <p class="mt-3 text-black"> "Thanks to this tech company, our financial management processes are streamlined and efficient. Their support led to unprecedented growth. Grateful for their invaluable expertise."</p>
-                </div>
-                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
                     <img class="img-fluid rounded-circle mb-3 col-4" src={uche} alt="Client 1"/>
                     <div class="h4 text-black">Uche Faith</div>
                     <div class="text-muted mb-3">Student, FUT Minna</div>
@@ -202,6 +191,7 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <p class="mt-3 text-black"> "Outstanding support! Their tailored solutions made us more agile and productive. Seamless integration enhanced team collaboration. Delighted with the results and eager for a long-lasting partnership."</p>
                 </div>
+               
                 <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
                     <img class="img-fluid rounded-circle mb-3 col-4" src={emmanuel} alt="Client 1"/>
                     <div class="h4 text-black">Balogun Emmanuel</div>
@@ -211,6 +201,17 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <p class="mt-3 text-black">"Our digital presence soared with this tech company's cutting-edge solutions. Increased engagement led to higher revenue and market share. A decision we celebrate."</p>
+                </div>
+             
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
+                    <img class="img-fluid rounded-circle mb-3 col-4" src={ayo} alt="Client 1"/>
+                    <div class="h4 text-black">Ilesanmi Ayomide (YINJU)</div>
+                    <div class="text-muted mb-3">Creative Director, Pisteuo Clothings </div>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <p class="mt-3 text-black"> "Thanks to this tech company, our financial management processes are streamlined and efficient. Their support led to unprecedented growth. Grateful for their invaluable expertise."</p>
                 </div>
                 <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
                     <img class="img-fluid rounded-circle mb-3 col-4" src={adeniyi} alt="Client 1"/>
