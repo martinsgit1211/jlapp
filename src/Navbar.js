@@ -59,7 +59,7 @@ function Navbar() {
           </Link>
               <button
                 type="button"
-                class="btn-close btn-close-white"
+                class="btn-close btn-close-warning"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>

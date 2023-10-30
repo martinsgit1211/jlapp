@@ -16,6 +16,7 @@ function Footer() {
     margin: '1.5rem auto',
     padding: '2rem 3rem',
     backgroundColor: 'rgba(9, 9, 30)',
+    
     borderRadius: '10px'
   }} className="text-white py-4">
     <div className="row justify-content-center">

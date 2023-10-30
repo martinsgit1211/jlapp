@@ -2,22 +2,29 @@
     width: 100%;
   }
   #offcanvasDarkNavbar{
-    background-color: #e0e0e0ef;
+    background-color: #ffff;
   }
   nav{
     background-color: #ffffff;
-
+    border-bottom: 1px solid rgba(0, 0, 0, 0.062);
   }
   /* #bottom{
     height: 130vh;
   } */
   #review{
     background: #dbdbdb69;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  #review:hover{
+    transform: scale(1.1);
   }
   #btt{
     border: 1px rgba(28, 28, 119, 0.89) solid;
     color: rgba(28, 28, 119, 0.89);
     font-weight: 500;
+  }
+  .dropstart .dropdown-toggle::before{
+    display: none;
   }
   #bttt{
     border: 1px #009900 solid;
@@ -45,6 +52,10 @@
     color: rgba(28, 28, 119, 0.89);
     font-weight: 800;
   }
+  /* #top{
+    background-image: url(./images/Rectangle\ 125.png);
+    background-repeat: no-repeat;
+  } */
  #frame{
     padding-top: 5.5rem;
  }

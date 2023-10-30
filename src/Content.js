@@ -23,8 +23,11 @@ import hezmag from './images/Rectangle 117.png';
 import adviser from './images/Business advisers with a big stack of coins.png'
 import statisticsMan from './images/Man checking business statistics on the phone.png';
 import discuss from './images/colleagues discussing team project.png';
-import accent from './images/20231003_072825.png'
+import accent from './images/Accent.png'
 import summit from './images/1692997775321.png'
+import cathy from './images/Cathy Foundation-01.jpg'
+import b3c from './images/-5924654729542088927_121.jpg'
+import thama from './images/ThamaniHub3.png'
 
 
 
@@ -77,7 +80,7 @@ function Content() {
         </div>
             <div
         ref={containerRef}
-        className="image-container col-sm-10 rounded-2 text-center"
+        className="image-container pb-2 col-sm-10 rounded-2 text-center"
         style={{
           display: 'flex',
           overflowX: 'auto',
@@ -85,17 +88,23 @@ function Content() {
           gap:'2.5rem'
         }}
       >
-        <img src={accent} width='80' height='70' className='bg-secondary rounded-2' alt="3" />
+        <img src={accent} width='80' height='70' alt="3" />
         <img src={summit} width='80' height='70' alt="3" />
         <img src={lala} alt="2" />
+        <img src={cathy} width='80' height='70'   alt="2" />
+        <img src={b3c} width='80' height='70'  alt="2" />
+        <img src={thama} width='120' height='70'  alt="2" />
         <img src={blueW} alt="3" />
         <img src={creators} alt="3" />
         <img src={blueBolt} alt="3" />
         <img src={hezmag} alt="3" />
         <img src={greenB} alt="3" />
-        <img src={accent} width='80' height='70' className='bg-secondary rounded-2' alt="3" />
+        <img src={accent} width='80' height='70' alt="3" />
         <img src={summit} width='80' height='70' alt="3" />
         <img src={lala} alt="2" />
+        <img src={cathy} width='80' height='70'   alt="2" />
+        <img src={b3c} width='80' height='70'  alt="2" />
+        <img src={thama} width='120' height='70'  alt="2" />
         <img src={blueW} alt="3" />
         <img src={creators} alt="3" />
         <img src={blueBolt} alt="3" />
@@ -111,9 +120,6 @@ function Content() {
         </div>
 
    
-
-
-
 
         <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow row text-center align-items-center">
             <div class="col-lg-6">
@@ -168,8 +174,8 @@ function Content() {
         <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 row justify-content-center text-center py-5 text-white">
         <div class="col-md-12" style={{minWidth:'100%'}}>
             <h2 id='primary' class="mb-4 mx-auto shadow-sm col-md-6 pb-2" style={{borderBottom: '1px blue solid'}}>What our Clients are saying</h2>
-            <div class="row justify-content-center reviews-container d-flex flex-nowrap overflow-auto" >
-                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
+            <div class="row justify-content-center d-flex flex-nowrap overflow-auto" >
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-4 p-4" style={{minWidth:'280px'}}>
                     <img class="img-fluid rounded-circle mb-3 col-4" src={zhiri} alt="Client 1"/>
                     <div class="h4 text-black">Zhiri Obadiah Adams</div>
                     <div class="text-muted mb-3">Founder, zhiREAL Studios</div>
@@ -180,7 +186,19 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <p class="mt-3 text-black">"JL Media transformed our processes, boosting productivity and saving costs. Their tailored approach was a game-changer for our growth."</p>
                 </div>
-                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
+          
+               
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-4 p-4" style={{minWidth:'280px'}}>
+                    <img class="img-fluid rounded-circle mb-3 col-4" src={emmanuel} alt="Client 1"/>
+                    <div class="h4 text-black">Balogun Emmanuel</div>
+                    <div class="text-muted mb-3">Founder, Exquisite Integrated Resources</div>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <p class="mt-3 text-black">"Our digital presence soared with this tech company's cutting-edge solutions. Increased engagement led to higher revenue and market share. A decision we celebrate."</p>
+                </div>
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-4 p-4" style={{minWidth:'280px'}}>
                     <img class="img-fluid rounded-circle mb-3 col-4" src={uche} alt="Client 1"/>
                     <div class="h4 text-black">Uche Faith</div>
                     <div class="text-muted mb-3">Student, FUT Minna</div>
@@ -191,8 +209,7 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <p class="mt-3 text-black"> "Outstanding support! Their tailored solutions made us more agile and productive. Seamless integration enhanced team collaboration. Delighted with the results and eager for a long-lasting partnership."</p>
                 </div>
-               
-                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-4 p-4" style={{minWidth:'280px'}}>
                     <img class="img-fluid rounded-circle mb-3 col-4" src={emmanuel} alt="Client 1"/>
                     <div class="h4 text-black">Balogun Emmanuel</div>
                     <div class="text-muted mb-3">Founder, Exquisite Integrated Resources</div>
@@ -202,8 +219,7 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <p class="mt-3 text-black">"Our digital presence soared with this tech company's cutting-edge solutions. Increased engagement led to higher revenue and market share. A decision we celebrate."</p>
                 </div>
-             
-                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-4 p-4" style={{minWidth:'280px'}}>
                     <img class="img-fluid rounded-circle mb-3 col-4" src={ayo} alt="Client 1"/>
                     <div class="h4 text-black">Ilesanmi Ayomide (YINJU)</div>
                     <div class="text-muted mb-3">Creative Director, Pisteuo Clothings </div>
@@ -213,7 +229,19 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <p class="mt-3 text-black"> "Thanks to this tech company, our financial management processes are streamlined and efficient. Their support led to unprecedented growth. Grateful for their invaluable expertise."</p>
                 </div>
-                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
+              
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-4 p-4" style={{minWidth:'280px'}}>
+                    <img class="img-fluid rounded-circle mb-3 col-4" src={zhiri} alt="Client 1"/>
+                    <div class="h4 text-black">Zhiri Obadiah Adams</div>
+                    <div class="text-muted mb-3">Founder, zhiREAL Studios</div>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <p class="mt-3 text-black">"JL Media transformed our processes, boosting productivity and saving costs. Their tailored approach was a game-changer for our growth."</p>
+                </div>
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-4 p-4" style={{minWidth:'280px'}}>
                     <img class="img-fluid rounded-circle mb-3 col-4" src={adeniyi} alt="Client 1"/>
                     <div class="h4 text-black">Oluwasegun Adeniyi</div>
                     <div class="text-muted mb-3">C. E. O., LET INNOVATIONS</div>
@@ -224,6 +252,7 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <p class="mt-3 text-black">"Impressed by this tech company's seamless solutions. They made us agile, enhancing collaboration and scalability. Highly recommend for any business aiming to thrive."</p>
                 </div>
+                
             </div>
         </div>
         </div>
