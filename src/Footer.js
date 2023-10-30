@@ -30,27 +30,56 @@ function Footer() {
     <div className="row">
     <div className="col-md-3">
             <h3 style={{color:'#ffff', fontWeight:'700'}}>JL Media HQ</h3>
-            <p>JL Media is a fast rising digital marketing agency with the aim to help business and brand grow fast and grow global.</p>
+            <p>JLmedia is the Fastest Growing Creative Design and Digital Marketing Agency. Aimed at helping businesses and brands grow fast and grow global.</p>
           </div>
        
           <div className="col-md-3">
-          <h3 style={{color:'#ffff', fontWeight:'700'}}>Services</h3>
+          <h3 style={{color:'#ffff', fontWeight:'700'}}>Our Services</h3>
             <ul className="list-unstyled">
-              <li>SEO</li>
-              <li>Web Design</li>
-              <li>Web Development</li>
-              <li>Content Creation</li>
+              <li>Brand Identity Design</li>
+              <li>Marketing Fliers</li>
+              <li>Video Editing and Ads</li>
               <li>Digital Marketing</li>
-              <li>Consultancy</li>
+              <li>Web Design and SEO</li>
+              <li>App Development
+</li>
+<li>Social Media Management 
+</li>
+<li>Copywriting and Content Marketing</li>
             </ul>
           </div>
           <div className="col-md-3">
           <h3 style={{color:'#ffff', fontWeight:'700'}}>Connect with Us</h3>
             <ul className="list-unstyled">
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Twitter</li>
-              <li>Tiktok</li>
+           <li> <Link class='text-decoration-none text-white'
+                            to="https://x.com/jlmediaglobal?t=7HIINaS9dElyGvoYZU9LLQ&s=09"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                      X
+                          </Link></li>
+                          <li><Link class='text-decoration-none text-white' to="tiktok.com/@jlmediaglobal" target="_blank" rel="noopener noreferrer">
+                           Tiktok
+                          </Link></li>
+                         <li> <Link class='text-decoration-none text-white'
+                            to="https://instagram.com/jlmediaglobal?igshid=MzRlODBiNWFlZA=="
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                          Instagram
+                          </Link></li>
+                         <li> <Link class='text-decoration-none text-white' to='https://www.facebook.com/profile.php?id=100087289263138&mibextid=ZbWKwL'>
+
+                        Facebook
+                          </Link></li>
+                         <li> <Link class='text-decoration-none text-white' to='https://www.linkedin.com/company/jlmediaglobal/'>
+
+                         LinkedIn
+                          </Link></li>
+                         <li> <Link class='text-decoration-none text-white' href='mailto:jlmedia.hub8@gmail.com'>
+
+                        Email
+                          </Link> </li>
             </ul>
           </div>
           <div className='col-md-3 mb-4'>
