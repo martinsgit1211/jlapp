@@ -89,12 +89,7 @@ function Footer() {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <img
-                              width="48"
-                              height="48"
-                              src="https://img.icons8.com/color/48/twitter--v1.png"
-                              alt="twitter--v1"
-                            />
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/000000/twitterx--v1.png" alt="twitterx--v1"/>
                           </Link>
                           <Link to="tiktok.com/@jlmediaglobal" target="_blank" rel="noopener noreferrer">
                             <img

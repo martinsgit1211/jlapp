@@ -10,6 +10,8 @@ import sittingWoman from './images/Businesswoman sitting on a stack of bitcoins 
 import advertiser from './images/Social media marketing and online advertising.png';
 import star from './images/Star 13.svg';
 import './App.css'
+import ayo from './images/1690740974962 - Ayomide Ilesanmi.jpg'
+import uche from './images/IMG-20220712-WA0006 - Uche Faith.jpg'
 import rightArrow from './images/Arrow 2.svg';
 import leftArrow from './images/Arrow 3.svg';
 import greenB from './images/Rectangle 116.png';
@@ -180,24 +182,25 @@ function Content() {
                     <p class="mt-3 text-black">"JL Media transformed our processes, boosting productivity and saving costs. Their tailored approach was a game-changer for our growth."</p>
                 </div>
                 <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
-                    <img class="img-fluid rounded-circle mb-3 col-4" src={emmanuel} alt="Client 1"/>
-                    <div class="h4 text-black">Balogun Emmanuel</div>
-                    <div class="text-muted mb-3">Founder, Exquisite Integrated Resources</div>
+                    <img class="img-fluid rounded-circle mb-3 col-4" src={ayo} alt="Client 1"/>
+                    <div class="h4 text-black">Ilesanmi Ayomide (YINJU)</div>
+                    <div class="text-muted mb-3">Creative Director, Pisteuo Clothings </div>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
-                    <p class="mt-3 text-black">"Our digital presence soared with this tech company's cutting-edge solutions. Increased engagement led to higher revenue and market share. A decision we celebrate."</p>
+                    <p class="mt-3 text-black"> "Thanks to this tech company, our financial management processes are streamlined and efficient. Their support led to unprecedented growth. Grateful for their invaluable expertise."</p>
                 </div>
                 <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
-                    <img class="img-fluid rounded-circle mb-3 col-4" src={emmanuel} alt="Client 1"/>
-                    <div class="h4 text-black">Balogun Emmanuel</div>
-                    <div class="text-muted mb-3">Founder, Exquisite Integrated Resources</div>
+                    <img class="img-fluid rounded-circle mb-3 col-4" src={uche} alt="Client 1"/>
+                    <div class="h4 text-black">Uche Faith</div>
+                    <div class="text-muted mb-3">Student, FUT Minna</div>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
-                    <p class="mt-3 text-black">"Our digital presence soared with this tech company's cutting-edge solutions. Increased engagement led to higher revenue and market share. A decision we celebrate."</p>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <p class="mt-3 text-black"> "Outstanding support! Their tailored solutions made us more agile and productive. Seamless integration enhanced team collaboration. Delighted with the results and eager for a long-lasting partnership."</p>
                 </div>
                 <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4" style={{minWidth:'280px'}}>
                     <img class="img-fluid rounded-circle mb-3 col-4" src={emmanuel} alt="Client 1"/>
