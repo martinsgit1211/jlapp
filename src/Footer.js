@@ -10,8 +10,8 @@ function Footer() {
   <div id='top' style={{
     position: 'absolute',
     top: '-10%',
-    right: '20%',
-    width: '60%',
+    right: '10%',
+    width: '80%',
     maxWidth: '80%', // Set a maximum width to maintain readability
     margin: '1.5rem auto',
     padding: '2rem 3rem',
