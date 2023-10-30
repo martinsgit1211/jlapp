@@ -161,16 +161,14 @@ function Content() {
                <p id='parag' class="fs-5">Perhaps you already have all these up and running but still aren't getting the results you desire. We can help you Re-Brand, Re-strategize, and Re-position for Peak Performance and Guaranteed results.
                </p>
                 <Link to="/websiteform" id='btt' class="btn rounded-1 p-3 col-md-6 my-4 btn-md">Get a Free Optimization Audit  <img width='15' src={rightArrow} alt='right'/></Link>
-        
             </div>
-           
         </div>
 
         <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 row justify-content-center text-center py-5 text-white">
         <div class="col-md-12">
             <h2 id='primary' class="mb-4 mx-auto shadow-sm col-md-6 pb-2" style={{borderBottom: '1px blue solid'}}>What our Clients are saying</h2>
             <div class="row justify-content-center reviews-container d-flex flex-nowrap overflow-auto">
-                <div id='review' class="col-lg-3 rounded shadow m-3 p-4">
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4">
                     <img class="img-fluid rounded-circle mb-3 col-4" src={zhiri} alt="Client 1"/>
                     <div class="h4 text-black">Zhiri Obadiah Adams</div>
                     <div class="text-muted mb-3">Founder, zhiREAL Studios</div>
@@ -181,7 +179,7 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <p class="mt-3 text-black">"JL Media transformed our processes, boosting productivity and saving costs. Their tailored approach was a game-changer for our growth."</p>
                 </div>
-                <div id='review' class="col-lg-3 rounded shadow m-3 p-4">
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4">
                     <img class="img-fluid rounded-circle mb-3 col-4" src={emmanuel} alt="Client 1"/>
                     <div class="h4 text-black">Balogun Emmanuel</div>
                     <div class="text-muted mb-3">Founder, Exquisite Integrated Resources</div>
@@ -191,7 +189,27 @@ function Content() {
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <p class="mt-3 text-black">"Our digital presence soared with this tech company's cutting-edge solutions. Increased engagement led to higher revenue and market share. A decision we celebrate."</p>
                 </div>
-                <div id='review' class="col-lg-3 rounded shadow m-3 p-4">
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4">
+                    <img class="img-fluid rounded-circle mb-3 col-4" src={emmanuel} alt="Client 1"/>
+                    <div class="h4 text-black">Balogun Emmanuel</div>
+                    <div class="text-muted mb-3">Founder, Exquisite Integrated Resources</div>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <p class="mt-3 text-black">"Our digital presence soared with this tech company's cutting-edge solutions. Increased engagement led to higher revenue and market share. A decision we celebrate."</p>
+                </div>
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4">
+                    <img class="img-fluid rounded-circle mb-3 col-4" src={emmanuel} alt="Client 1"/>
+                    <div class="h4 text-black">Balogun Emmanuel</div>
+                    <div class="text-muted mb-3">Founder, Exquisite Integrated Resources</div>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <img class="img-fluid mb-3" src={star} alt="Client 1"/>
+                    <p class="mt-3 text-black">"Our digital presence soared with this tech company's cutting-edge solutions. Increased engagement led to higher revenue and market share. A decision we celebrate."</p>
+                </div>
+                <div id='review' class="col-12 col-sm-6 col-md-4 col-lg-3 rounded shadow m-3 p-4">
                     <img class="img-fluid rounded-circle mb-3 col-4" src={adeniyi} alt="Client 1"/>
                     <div class="h4 text-black">Oluwasegun Adeniyi</div>
                     <div class="text-muted mb-3">C. E. O., LET INNOVATIONS</div>
