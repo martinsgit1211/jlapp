@@ -10,12 +10,12 @@ function Footer() {
   <div id='top' style={{
     position: 'absolute',
     top: '-10%',
-    right: '10%',
-    width: '80%',
+    right: '20%',
+    width: '60%',
     maxWidth: '80%', // Set a maximum width to maintain readability
     margin: '1.5rem auto',
-    padding: '2rem',
-    backgroundColor: 'rgba(3, 3, 20)',
+    padding: '2rem 3rem',
+    backgroundColor: 'rgba(2, 10, 54)',
     borderRadius: '10px'
   }} className="text-white py-4">
     <div className="row justify-content-center">
@@ -54,7 +54,7 @@ function Footer() {
             </ul>
           </div>
           <div className='col-md-3 mb-4'>
-          <h3 style={{color:'#ffff'}}>Socials</h3>
+          <h3 style={{color:'#ffff', fontWeight:'700'}}>Socials</h3>
           <Link
                             to="https://x.com/jlmediaglobal?t=7HIINaS9dElyGvoYZU9LLQ&s=09"
                             target="_blank"

@@ -3,7 +3,9 @@ import {Link} from 'react-router-dom'
 import standingMan from './images/Successful businessman standing near growing bar chart.png';
 import steppinMan from './images/Man stepping up as his business is growing.png';
 import mouse from './images/Mouse.png';
-import bill from './images/Ellipse 49.svg'
+import zhiri from './images/_STG8680 - Obadiah Zhiri.jpg'
+import emmanuel from './images/IMG_20230824_105708_508 - Daniel Emmanuel (ElWins).jpg'
+import adeniyi from './images/IMG_20230722_124134_870 - Oluwasegun Adeniyi (1).jpg'
 import sittingWoman from './images/Businesswoman sitting on a stack of bitcoins and analyzing finances.png';
 import advertiser from './images/Social media marketing and online advertising.png';
 import star from './images/Star 13.svg';
@@ -19,6 +21,8 @@ import hezmag from './images/Rectangle 117.png';
 import adviser from './images/Business advisers with a big stack of coins.png'
 import statisticsMan from './images/Man checking business statistics on the phone.png';
 import discuss from './images/colleagues discussing team project.png';
+import accent from './images/20231003_072825.png'
+import summit from './images/1692997775321.png'
 
 
 
@@ -79,24 +83,22 @@ function Content() {
           gap:'2.5rem'
         }}
       >
-        <img src={greenB} alt="1" />
+        <img src={accent} width='80' height='70' className='bg-secondary rounded-2' alt="3" />
+        <img src={summit} width='80' height='70' alt="3" />
         <img src={lala} alt="2" />
         <img src={blueW} alt="3" />
         <img src={creators} alt="3" />
         <img src={blueBolt} alt="3" />
         <img src={hezmag} alt="3" />
-        <img src={greenB} alt="1" />
+        <img src={greenB} alt="3" />
+        <img src={accent} width='80' height='70' className='bg-secondary rounded-2' alt="3" />
+        <img src={summit} width='80' height='70' alt="3" />
         <img src={lala} alt="2" />
         <img src={blueW} alt="3" />
         <img src={creators} alt="3" />
         <img src={blueBolt} alt="3" />
         <img src={hezmag} alt="3" />
-        <img src={greenB} alt="1" />
-        <img src={lala} alt="2" />
-        <img src={blueW} alt="3" />
-        <img src={creators} alt="3" />
-        <img src={blueBolt} alt="3" />
-        <img src={hezmag} alt="3" />
+        <img src={greenB} alt="3" />
         </div>
         <div>
             <button className="btn ml-3 rounded-circle border btn-outline-secondary ml-4 p-1" onClick={() => scrollImages('right')}>
@@ -116,7 +118,7 @@ function Content() {
                 <h1 id='primary' class="fs-3 my-4">WE POSITION</h1>
                <p id='parag' class="fs-5">People need what you're offering, but don't know why they should choose you over your competitors. With our branding and design services, we dress up your company  and ensure your customers can’t say NO to your offers.
                </p>
-                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 my-4 col-md-6 btn-md">Get a Free Brand Audit</Link>
+                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 my-4 col-md-6 btn-md">Get a Free Brand Audit  <img width='15' src={rightArrow} alt='right'/></Link>
         
             </div>
             <div class="col-lg-6">
@@ -132,7 +134,7 @@ function Content() {
                 <h1  id='primary' class="fs-3 my-4">WE PROMOTE</h1>
                <p id='parag' class="fs-5">Tons of prospects are looking for the solutions you offer, but you're not where they are. With our Digital Marketing Tools, we help ensure you get noticed, convert more customers, and close more sales.
                </p>
-                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 my-4 col-md-4 btn-md">Get Notified</Link>
+                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 my-4 col-md-4 btn-md">Get Notified  <img width='15' src={rightArrow} alt='right'/></Link>
         
             </div>
            
@@ -142,7 +144,7 @@ function Content() {
                 <h1 class="fs-3 my-4" id='primary'>WE AUTOMATE</h1>
                <p id='parag' class="fs-5">Imagine being able to focus on the 4% percent of your business that actually generates income, and leave the rest to our Automated systems to work for you, that's what the apps, websites and landing pages we can create for you would help you do.
                </p>
-                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 col-md-4 my-4 btn-md">Automate Now</Link>
+                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 col-md-4 my-4 btn-md">Automate Now  <img width='15' src={rightArrow} alt='right'/></Link>
         
             </div>
             <div class="col-lg-6">
@@ -155,10 +157,10 @@ function Content() {
                 <img src={discuss} class="img-fluid"  alt="woman" />
             </div>
             <div class="mx-auto col-lg-6">
-                <h1 class="fs-3 my-4" id='primary'>WE AUTOMATE</h1>
+                <h1 class="fs-3 my-4" id='primary'>WE OPTIMIZE</h1>
                <p id='parag' class="fs-5">Perhaps you already have all these up and running but still aren't getting the results you desire. We can help you Re-Brand, Re-strategize, and Re-position for Peak Performance and Guaranteed results.
                </p>
-                <Link to="/websiteform" id='btt' class="btn rounded-1 p-3 col-md-6 my-4 btn-md">Get a Free Optimization Audit</Link>
+                <Link to="/websiteform" id='btt' class="btn rounded-1 p-3 col-md-6 my-4 btn-md">Get a Free Optimization Audit  <img width='15' src={rightArrow} alt='right'/></Link>
         
             </div>
            
@@ -167,11 +169,11 @@ function Content() {
         <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 row justify-content-center text-center py-5 text-white">
         <div class="col-md-12">
             <h2 id='primary' class="mb-4 mx-auto shadow-sm col-md-6 pb-2" style={{borderBottom: '1px blue solid'}}>What our Clients are saying</h2>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center reviews-container d-flex flex-nowrap overflow-auto">
                 <div id='review' class="col-lg-3 rounded shadow m-3 p-4">
-                    <img class="img-fluid rounded-circle mb-3" src={bill} alt="Client 1"/>
-                    <div class="h4 text-black">Bill Gates</div>
-                    <div class="text-muted mb-3">Founder, Microsoft</div>
+                    <img class="img-fluid rounded-circle mb-3 col-4" src={zhiri} alt="Client 1"/>
+                    <div class="h4 text-black">Zhiri Obadiah Adams</div>
+                    <div class="text-muted mb-3">Founder, zhiREAL Studios</div>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
@@ -180,9 +182,9 @@ function Content() {
                     <p class="mt-3 text-black">"JL Media transformed our processes, boosting productivity and saving costs. Their tailored approach was a game-changer for our growth."</p>
                 </div>
                 <div id='review' class="col-lg-3 rounded shadow m-3 p-4">
-                    <img class="img-fluid rounded-circle mb-3" src={bill} alt="Client 1"/>
-                    <div class="h4 text-black">Bill Gates</div>
-                    <div class="text-muted mb-3">Founder, Microsoft</div>
+                    <img class="img-fluid rounded-circle mb-3 col-4" src={emmanuel} alt="Client 1"/>
+                    <div class="h4 text-black">Balogun Emmanuel</div>
+                    <div class="text-muted mb-3">Founder, Exquisite Integrated Resources</div>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
@@ -190,9 +192,9 @@ function Content() {
                     <p class="mt-3 text-black">"Our digital presence soared with this tech company's cutting-edge solutions. Increased engagement led to higher revenue and market share. A decision we celebrate."</p>
                 </div>
                 <div id='review' class="col-lg-3 rounded shadow m-3 p-4">
-                    <img class="img-fluid rounded-circle mb-3" src={bill} alt="Client 1"/>
-                    <div class="h4 text-black">Bill Gates</div>
-                    <div class="text-muted mb-3">Founder, Microsoft</div>
+                    <img class="img-fluid rounded-circle mb-3 col-4" src={adeniyi} alt="Client 1"/>
+                    <div class="h4 text-black">Oluwasegun Adeniyi</div>
+                    <div class="text-muted mb-3">C. E. O., LET INNOVATIONS</div>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>
                     <img class="img-fluid mb-3" src={star} alt="Client 1"/>

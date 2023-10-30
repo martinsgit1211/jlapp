@@ -17,6 +17,7 @@
   #btt{
     border: 1px rgba(28, 28, 119, 0.89) solid;
     color: rgba(28, 28, 119, 0.89);
+    font-weight: 500;
   }
   #bttt{
     border: 1px #009900 solid;
@@ -42,7 +43,7 @@
   }
   #primary{
     color: rgba(28, 28, 119, 0.89);
-    font-weight: 700;
+    font-weight: 800;
   }
  #frame{
     padding-top: 5.5rem;
