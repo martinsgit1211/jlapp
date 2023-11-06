@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
    
-   <div id='bottom' style={{maxHeight:'250vh',padding: '50vh 0 0', position: 'relative' }} className="container-fluid bg-black text-white mx-auto">
+   <div id='bottom' style={{maxHeight:'290vh',padding: '50vh 0 0', position: 'relative' }} className="container-fluid bg-black text-white mx-auto">
   <div id='top' style={{
     position: 'absolute',
     top: '-10%',
@@ -27,7 +27,7 @@ function Footer() {
       </div>
     </div>
   </div>
-  <div className="container">
+  <div className="container p-4">
     <div className="row">
     <div className="col-md-3">
             <h3 style={{color:'#ffff', fontWeight:'700'}}>JL Media HQ</h3>
@@ -127,7 +127,7 @@ function Footer() {
                           </Link> 
           </div>
     </div>
-      <div className="col-md-12 text-center" style={{ borderTop: '1px solid #009900' }}>
+      <div className="col-md-12 text-center" style={{ borderTop: '1px solid #009900', height:'30vh' }}>
         <p className="mb-0 pt-4 pb-5">JL Media Inc@2023</p>
       </div>
     

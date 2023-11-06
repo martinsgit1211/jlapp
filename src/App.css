@@ -14,12 +14,13 @@
   #review{
     background: #dbdbdb69;
     transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 20px;
   }
-  #review:hover{
+  /* #review:hover{
     transform: scale(1.1);
-  }
+  } */
   #btt{
-    border: 1px rgba(28, 28, 119, 0.89) solid;
+    border: 1px  #009900 solid;
     color: rgba(28, 28, 119, 0.89);
     font-weight: 500;
   }
@@ -52,10 +53,6 @@
     color: rgba(28, 28, 119, 0.89);
     font-weight: 800;
   }
-  /* #top{
-    background-image: url(./images/Rectangle\ 125.png);
-    background-repeat: no-repeat;
-  } */
  #frame{
     padding-top: 5.5rem;
  }
@@ -72,6 +69,26 @@
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
       padding: 5.5rem 2rem;
+  }
+
+  .position-relative {
+    position: relative;
+  }
+  
+  #left, #right {
+    position: absolute;
+    /* top: 50%S; */
+    transform: translateY(-50%);
+    /* background-color: #ffffff; */
+    z-index: 1; /* Ensure the buttons appear on top of the reviews */
+  }
+  
+  #left{
+    left: 10px;
+  }
+  
+   #right{
+    right: 10px;
   }
   
   @keyframes gradient {
