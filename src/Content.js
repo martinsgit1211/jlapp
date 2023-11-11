@@ -1,17 +1,17 @@
 import React, { useRef } from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import standingMan from './images/Successful businessman standing near growing bar chart.png';
 import steppinMan from './images/Man stepping up as his business is growing.png';
 import mouse from './images/Mouse.png';
-import zhiri from './images/_STG8680 - Obadiah Zhiri.jpg'
-import emmanuel from './images/IMG_20230824_105708_508 - Daniel Emmanuel (ElWins).jpg'
-import adeniyi from './images/IMG_20230722_124134_870 - Oluwasegun Adeniyi (1).jpg'
+import zhiri from './images/_STG8680 - Obadiah Zhiri.jpg';
+import emmanuel from './images/IMG_20230824_105708_508 - Daniel Emmanuel (ElWins).jpg';
+import adeniyi from './images/IMG_20230722_124134_870 - Oluwasegun Adeniyi (1).jpg';
 import sittingWoman from './images/Businesswoman sitting on a stack of bitcoins and analyzing finances.png';
 import advertiser from './images/Social media marketing and online advertising.png';
 import star from './images/Star 13.svg';
-import './App.css'
-import ayo from './images/IMG-20231102-WA0013.jpg'
-import uche from './images/IMG-20220712-WA0006 - Uche Faith.jpg'
+import './App.css';
+import ayo from './images/IMG-20231102-WA0013.jpg';
+import uche from './images/IMG-20220712-WA0006 - Uche Faith.jpg';
 import rightArrow from './images/Arrow 2.svg';
 import leftArrow from './images/Arrow 3.svg';
 import greenB from './images/Rectangle 116.png';
@@ -20,24 +20,24 @@ import creators from './images/Rectangle 119.png';
 import blueW from './images/Rectangle 118.png';
 import blueBolt from './images/let logo red-1.png';
 import hezmag from './images/Rectangle 117.png';
-import adviser from './images/Business advisers with a big stack of coins.png'
+import adviser from './images/Business advisers with a big stack of coins.png';
 import statisticsMan from './images/Man checking business statistics on the phone.png';
 import discuss from './images/colleagues discussing team project.png';
-import accent from './images/Accent.png'
-import summit from './images/1692997775321.png'
-import cathy from './images/Cathy Foundation-01.jpg'
-import b3c from './images/-5924654729542088927_121.jpg'
-import thama from './images/ThamaniHub3.png'
-import goodluck from './images/IMG-20231102-WA0012.jpg'
-import gloria from './images/IMG-20231102-WA0011.jpg'
-import onuigbo from './images/IMG-20231102-WA0010.jpg'
-import gbenga from './images/onuigbo.jpg'
-import zyna from './images/IMG-20231102-WA0008.jpg'
-import akintayo from './images/IMG-20231102-WA0007.jpg'
-import onye from './images/IMG-20231102-WA0014.jpg'
-import idowu from './images/IMG-20231102-WA0018.jpg'
-import achine from './images/IMG-20231102-WA0017.jpg'
-import shaba from './images/IMG-20231102-WA0015.jpg'
+import accent from './images/Accent.png';
+import summit from './images/1692997775321.png';
+import cathy from './images/Cathy Foundation-01.jpg';
+import b3c from './images/-5924654729542088927_121.jpg';
+import thama from './images/ThamaniHub3.png';
+import goodluck from './images/IMG-20231102-WA0012.jpg';
+import gloria from './images/IMG-20231102-WA0011.jpg';
+import onuigbo from './images/IMG-20231102-WA0010.jpg';
+import gbenga from './images/onuigbo.jpg';
+import zyna from './images/IMG-20231102-WA0008.jpg';
+import akintayo from './images/IMG-20231102-WA0007.jpg';
+import onye from './images/IMG-20231102-WA0014.jpg';
+import idowu from './images/IMG-20231102-WA0018.jpg';
+import achine from './images/IMG-20231102-WA0017.jpg';
+import shaba from './images/IMG-20231102-WA0015.jpg';
 
 function Content() {
     const containerRef = useRef(null);
@@ -160,7 +160,7 @@ function Content() {
                 <h1 class="fs-3 my-4" id='primary'>WE AUTOMATE</h1>
                <p id='parag' class="fs-5">Imagine being able to focus on the 4% percent of your business that actually generates income, and leave the rest to our Automated systems to work for you, that's what the apps, websites and landing pages we can create for you would help you do.
                </p>
-                <Link to="/brandingform" id='btt' class="btn rounded-1 p-3 col-md-4 my-4 btn-md">Automate Now <img width='15' src={rightArrow} alt='right'/></Link>
+                <Link to="/automate" id='btt' class="btn rounded-1 p-3 col-md-4 my-4 btn-md">Automate Now <img width='15' src={rightArrow} alt='right'/></Link>
         
             </div>
             <div class="col-lg-6">
