@@ -127,7 +127,7 @@ function Footer() {
                           </Link> 
           </div>
     </div>
-      <div className="col-md-12 text-center" style={{ borderTop: '1px solid #009900', height:'30vh' }}>
+      <div className="col-md-12 text-center" style={{ borderTop: '1px solid #009900', height:'20vh' }}>
         <p className="mb-0 pt-4 pb-5">JL Media Inc@2023</p>
       </div>
     
