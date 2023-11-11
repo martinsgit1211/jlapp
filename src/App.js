@@ -8,6 +8,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Content from './Content.js'
 import Learnmore from "./Learnmore";
+import Automate from "./Automate.js";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/navbar" element={<Navbar />}></Route>
         <Route path="/content" element={<Content />}></Route>
         <Route path="/learnmore" element={<Learnmore/>}></Route>
+        <Route path="/automate" element={<Automate/>}></Route>
       </Routes>
     </Router>
   );

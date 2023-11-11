@@ -166,7 +166,6 @@ function Content() {
             <div class="col-lg-6">
                 <img src={statisticsMan} class="img-fluid"  alt="woman" />
             </div>
-           
         </div>
         <div style={{margin:'4.5rem 0.5rem'}} class="p-3 rounded-4 shadow row text-center align-items-center">
             <div class="mx-auto col-lg-6 order-lg-1 order-2">
